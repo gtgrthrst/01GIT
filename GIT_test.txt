@@ -1,0 +1,11 @@
+setwd("C:/R/paper/")
+
+#install.packages("reshape2_1.4.3.zip", repos = NULL)
+#install.packages("rmarkdown_1.10.zip", repos = NULL)
+#install.packages("kableExtra_0.9.0.zip", repos = NULL)
+#install.packages("knitr_1.20.zip", repos = NULL)
+
+
+datainpath <- "C:/R/paper/Data/"
+Sample_ID_file <- "c:/R/ICP/ICP_Analysis_number.csv"   #選取Samole_ID資料
+data_file <-  list.files(datainpath,pattern=".*csv$",full.names = T) #choose.files()   #選取資料，選取高低檢量線數據
